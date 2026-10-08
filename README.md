@@ -1,63 +1,67 @@
 # KIMI Web Artifacts & Prompt Engineering Showcase
-### 🚀 KIMI 官方前沿前端案例、专业提示词工程与成品源码全景库
+### 🚀 KIMI 官方前沿前端案例、工业级提示词工程、多轮会话实录与成品源码全景库
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Cases-91%2B%20Showcases-blue?style=flat-square&logo=safari" alt="Cases" />
-  <img src="https://img.shields.io/badge/Core_Projects-9%20Full%20Packages-success?style=flat-square&logo=github" alt="Projects" />
-  <img src="https://img.shields.io/badge/Technology-WebGPU%20|%20Three.js%20|%20GLSL%20|%20D3.js-orange?style=flat-square" alt="Tech" />
-  <img src="https://img.shields.io/badge/Architecture-Pure%20Vanilla%20%2F%20Zero%20Build-purple?style=flat-square" alt="Architecture" />
-  <img src="https://img.shields.io/badge/Powered%20By-Moonshot%20AI%20Kimi%20Agent-red?style=flat-square" alt="Kimi" />
+  <img src="https://img.shields.io/badge/Official_Showcases-91%2B%20Sites-blue?style=flat-square&logo=safari" alt="Showcases" />
+  <img src="https://img.shields.io/badge/Inspiration_Library-129%2B%20Demos-success?style=flat-square&logo=googlechrome" alt="Inspirations" />
+  <img src="https://img.shields.io/badge/Core_Projects-9%20Full%20Packages-purple?style=flat-square&logo=github" alt="Projects" />
+  <img src="https://img.shields.io/badge/Prompt_Specs-Multi--turn%20Dialogues-orange?style=flat-square" alt="Prompts" />
+  <img src="https://img.shields.io/badge/Powered%20By-Moonshot%20AI%20Kimi%20K3-red?style=flat-square" alt="Kimi" />
 </p>
 
 ---
 
 ## 📖 项目简介
 
-本项目收录并整理了 **Moonshot AI（月之暗面）Kimi 官网** 及 **Kimi Agent / K3** 在前端应用生成领域的最前沿官方展示案例，包含：
+本项目深度收录并系统整理了 **Moonshot AI（月之暗面）Kimi 官网**、**Kimi Agent** 以及 **Kimi K3** 在前端应用生成领域的全部核心工程资产与提示词沉淀，构建了一个开箱即用、全景视角的 Web 前端生成范式库：
 
-1. **🌐 91 个官方在线演示站点**：涵盖游戏娱乐、3D 可视化、金融专业看板、交互式研报、实用工具及落地页；
-2. **🧠 9 套官方公开的万字系统提示词（Prompt Specs, Markdown）**：解密如何通过精细的工程级规格提示词，让 AI 一次性生成生产级、复杂图形学与数据可视化单页应用；
-3. **📦 9 套完整可运行前端成品项目源码（ZIP Packages）**：包含开箱即用的静态前端代码、着色器脚本、素材资源与测试验收报告。
-
-无论是研究 **大模型前端代码生成能力边界**，还是学习 **复杂应用 Prompt 架构设计**，本项目都具备极高的参考价值。
+1. **💎 9 大旗舰级工程工件（Core Packages）**：包含 9 套完整可离线运行的前端成品项目源码包（ZIP）、着色器源码、静态依赖与测试报告；
+2. **🧠 工业级提示词工程与多轮会话实录（Multi-Turn Prompts）**：涵盖核心案例的**【简单提示词（起手式）】$\to$【主系统规格 Prompt（万字规范）】$\to$【第 2~4 轮精准微调与 Debug 会话】**，完整还原顶尖复杂应用的人机协作推演过程；
+3. **💡 129 个官网灵感库精选资产（Inspiration Hub）**：包含游戏（42个）、3D 网页（44个）、应用建站（43个）三大专区，并配套 **129 份独立归档的本地 Prompt 文档**（位于 [`灵感库prompt/`](./灵感库prompt/)）；
+4. **🌐 91 个官网前沿综合案例全景导航（Official Showcases）**：涵盖 65 款精选分类网站、5 大 Agent 集群智能体及 21 款探索灵感作品。
 
 ---
 
 ## 🌟 核心亮点
 
-- 📐 **超硬核提示词工程（Prompt Engineering Specs）**：单份 Prompt 篇幅达 20KB~90KB，详尽规范了架构选型、DOM 结构、WebGL/TSL 数学方程、物理模拟因果链、状态机以及降级兜底方案。
-- ⚡ **纯原生技术栈（Zero-Build / Vanilla First）**：生成的应用普遍采用原生 HTML5 + ES Modules + 本地依赖引入，摆脱庞大的 npm 构建流程，本地双击或简易静态服务器即可秒级秒开。
-- 🎨 **前沿图形与数据可视化**：深度覆盖 WebGPU (TSL 节点着色器)、Three.js 实时光线追踪 (GLSL)、D3.js 滚动叙事 (Scrollytelling)、Canvas 金融终端与 3D 骨骼动画游戏物理。
+- 🔄 **完整的多轮交互演进实录**：告别“盲盒式”一句话生成，真实公开让 AI 攻克 WebGL/WebGPU 3D 游戏、引力透镜光线追踪、彭博金融终端时所需的**多轮提示词拆解与调优记录**。
+- 📦 **129 份官方灵感库 Prompt 资产集**：按标准数据协议同步收录了官方灵感专区的全部 129 篇 Prompt，开箱即查即用，涵盖从休闲 3D 游戏到物理仿真课件的丰富品类。
+- ⚡ **纯原生免构建架构（Zero-Build / Vanilla First）**：全部工程制品均采用原生 HTML5 + ES Modules + 本地依赖引入，杜绝复杂的 npm 构建链，本地静态服务器秒级启动。
+- 🎨 **前沿 Web 图形学技术覆盖**：涵盖 WebGPU (TSL 节点着色器)、Three.js 实时光线追踪 (GLSL)、D3.js 滚动叙事 (Scrollytelling)、Canvas 交易终端及 3D 骨骼动画游戏。
 
 ---
 
 ## 📂 仓库文件组织
 
-本仓库按照清晰的职能进行分层归类，开箱即用：
-
 ```
 .
 ├── 📜 README.md                                                 # 项目总览与使用说明 (本文档)
 ├── 📑 KIMI官网展示案例汇总.md                                       # 全量 91 个官方案例全景分类导航与清单
+├── 💡 KIMI-k3-灵感库.md                                         # 官网灵感库 129 个精选案例全量索引表
 │
-├── 📁 prompts/                                                  # 系统提示词规格文件目录 (Markdown 格式)
-│   ├── GARGANTUA.md                                            # 黑洞 WebGL 光线追踪 Prompt (38KB)
-│   ├── 3D复古打字机.md                                         # 3D 机械打字机交互 Prompt (42KB)
-│   ├── Bloomberg风格全球股市看板.md                             # 金融终端 Canvas 监控 Prompt (56KB)
-│   ├── 海的尽头.md                                             # WebGPU/TSL 海洋模拟 Prompt (21KB)
-│   ├── 赛博朋克大都会.md                                       # Web 3D 动作游戏 Prompt (23KB)
-│   ├── 喷气发动机3D互动教具.md                                 # 机械航空工程 3D 课本 Prompt (37KB)
-│   ├── 推理芯片的四十二年 · 1985–2026 周期重建与行业深研.md    # 芯片长卷研报 Prompt (68KB)
-│   ├── 用注意力重塑深度维度的信息聚合 · 交互讲解.md            # 注意力机制互动科普 Prompt (92KB)
-│   └── 船运不是一个周期.md                                     # D3 海运数据叙事 Prompt (18KB)
+├── 📁 prompts/                                                  # 旗舰工程多轮会话与提示词规格库 (Markdown)
+│   ├── 3D复古打字机.md (+ 简单提示词 / 第二轮 / 第三轮会话)
+│   ├── Bloomberg风格全球股市看板.md (+ 简单提示词 / 第2~4轮会话)
+│   ├── GARGANTUA.md (+ 简单提示词 / 第二轮会话)
+│   ├── 喷气发动机3D互动教具.md (+ 简单提示词 / 第2~4轮会话)
+│   ├── 推理芯片的四十二年 · 1985–2026 周期重建与行业深研.md (+ 简单提示词 / 第2~4轮会话)
+│   ├── 海的尽头.md (+ 简单提示词)
+│   ├── 用注意力重塑深度维度的信息聚合 · 交互讲解.md (+ 第二轮会话)
+│   ├── 赛博朋克大都会.md (+ 简单提示词 / 第二轮会话)
+│   └── 船运不是一个周期.md
 │
-└── 📁 packages/                                                 # 成品项目源码包目录 (ZIP 压缩包)
-    ├── Kimi_Agent_✅GARGANTUA.zip                               # 黑洞项目完整源码包
+├── 📁 灵感库prompt/                                              # 129 个官方灵感库独立提示词文件 (Markdown)
+│   ├── 3D 网页类 (太阳系漫游、透视火箭标注图、陀飞轮手表机芯、人体解剖学堂...)
+│   ├── 游戏娱乐类 (林中小屋、第一人称3D台球、午夜货运、Kimi环游世界...)
+│   └── 应用建站类 (行情监控看板、通用管理后台、多轨时间轴、氛围日记本...)
+│
+└── 📁 packages/                                                 # 9 大核心工程可运行成品源码包 (ZIP 压缩包)
+    ├── Kimi_Agent_✅GARGANTUA.zip                               # 黑洞 WebGL 光线追踪完整源码
     ├── Kimi_Agent_3D复古打印机.zip                              # 3D 打字机完整源码包
     ├── Kimi_Agent_全球股市终端构建.zip                          # 彭博股票终端完整源码包
     ├── Kimi_Agent_✅Open Sea.zip                                # WebGPU 海洋模拟源码包
-    ├── cyberpunk-megapolis-v7.zip                               # 赛博朋克游戏完整源码及模型资源
-    ├── Kimi_Agent_3D喷气发动机教学.zip                          # 喷气发动机教具完整源码及素材
+    ├── cyberpunk-megapolis-v7.zip                               # 赛博朋克 3D 动作游戏完整源码及模型
+    ├── Kimi_Agent_3D喷气发动机教学.zip                          # 喷气发动机立体教具完整源码及素材
     ├── Kimi_Agent_✅推理芯片.zip                                # 芯片研报完整源码及图表脚本
     ├── Kimi_Agent_✅论文.zip                                    # 交互论文讲解完整单页应用
     └── Kimi_Agent_✅船运周期.zip                                # 航运数据叙事完整源码及数据集
@@ -65,114 +69,59 @@
 
 ---
 
-## 💎 九大核心案例与工程文件成品
+## 💎 九大核心案例与工程成品矩阵（含多轮 Prompt 演进）
 
-本仓库核心收录了 9 个由顶级提示词驱动、由 Kimi Agent 生成的旗舰级前端单页项目，每套均包含**【完整系统提示词 `.md`】**与**【完整源码成品 `.zip`】**：
+本仓库收录了 9 套由 Kimi Agent 生成的旗舰级前端单页项目，每套均提供**【多轮会话 Prompt】**与**【完整源码成品包】**：
 
-| 序号 | 案例名称 | 核心领域 | 关键技术栈 | Prompt 文件 | 完整项目成品源码包 | 官网在线体验直达 |
+| 序号 | 案例名称 | 核心领域 | 关键技术栈 | 提示词与多轮会话文件 (位于 [`prompts/`](./prompts/)) | 完整项目成品源码包 | 官网在线体验直达 |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| **01** | **黑洞：GARGANTUA** | 科学可视化 / 天体物理 | WebGL, GLSL, Three.js, Raytracer | [`GARGANTUA.md`](./prompts/GARGANTUA.md) | [`Kimi_Agent_✅GARGANTUA.zip`](./packages/Kimi_Agent_✅GARGANTUA.zip) | [🌐 在线预览 1](https://c3gyemkuxznvi.ok.kimi.link?id=2077777306876747776&share_id=19f6af0a-ddb2-8cce-8000-0000238a274d) / [预览 2](https://excdvtcdshcu4.ok.kimi.link/) |
-| **02** | **3D 复古打字机** | 拟物拟态 / 3D 交互 | Three.js, 物理按键音效, 纸张卷动 | [`3D复古打字机.md`](./prompts/3D复古打字机.md) | [`Kimi_Agent_3D复古打印机.zip`](./packages/Kimi_Agent_3D复古打印机.zip) | [🌐 在线预览 1](https://ixb5rkvzh7m44.ok.kimi.link?id=2082736037805252608&share_id=19fb1fad-6ce2-8a42-8000-0000a90284a2) / [预览 2](https://phfiw57ydjife.kimi.page/) |
-| **03** | **Bloomberg 风格全球股市看板** | 金融科技 / 交易终端 | Canvas, ASCII Terminal, 模块化拖拽 | [`Bloomberg风格全球股市看板.md`](./prompts/Bloomberg风格全球股市看板.md) | [`Kimi_Agent_全球股市终端构建.zip`](./packages/Kimi_Agent_全球股市终端构建.zip) | [🌐 在线预览 1](https://6qz4trpct4e34.ok.kimi.link?id=2082747077238546432&share_id=19fb223c-87f2-83c7-8000-0000a60c211b) / [预览 2](https://s4ibp54hd7bwq.kimi.page/) |
-| **04** | **海的尽头 (Open Sea)** | 次世代 Web 图形学 | WebGPU, Three.js TSL 节点着色器 | [`海的尽头.md`](./prompts/海的尽头.md) | [`Kimi_Agent_✅Open Sea.zip`](./packages/Kimi_Agent_✅Open%20Sea.zip) | [🌐 在线预览 1](https://avj2vp5rk3fqe.ok.kimi.link?id=2077778172904054784&share_id=19f6af1a-b402-8a62-8000-0000ed366eab) / [预览 2](https://qdtipu6rd2myk.ok.kimi.link) |
-| **05** | **赛博朋克大都会** | 3D Web 动作游戏 | Three.js, 骨骼动画, 蛛丝飞跃物理 | [`赛博朋克大都会.md`](./prompts/赛博朋克大都会.md) | [`cyberpunk-megapolis-v7.zip`](./packages/cyberpunk-megapolis-v7.zip) | [🌐 在线预览 1](https://dnjwep22axoiq.ok.kimi.link?id=2077778637939122176&share_id=19f6aedd-c7a2-862d-8000-0000ba25e56c) / [预览 2](https://zrlxxdaz56kym.ok.kimi.link) |
-| **06** | **喷气发动机 3D 互动教具** | 航空航天 / 机械课本 | Three.js, 布雷顿循环, 粒子流体模拟 | [`喷气发动机3D互动教具.md`](./prompts/喷气发动机3D互动教具.md) | [`Kimi_Agent_3D喷气发动机教学.zip`](./packages/Kimi_Agent_3D喷气发动机教学.zip) | [🌐 在线预览](https://wa6krm6bznv44.kimi.page) |
-| **07** | **推理芯片的四十二年 (1985–2026)** | 深度研究长卷研报 | ASIC V8 复刻, 滚动叙事, 实时仪表盘 | [`推理芯片的四十二年 · 1985–2026 周期重建与行业深研.md`](./prompts/推理芯片的四十二年%20·%201985–2026%20周期重建与行业深研.md) | [`Kimi_Agent_✅推理芯片.zip`](./packages/Kimi_Agent_✅推理芯片.zip) | [🌐 在线预览](https://765dvagfhthwu.kimi.page) |
-| **08** | **Attention Residuals 交互论文精读** | AI 论文互动科普 | 交互式架构讲解, 状态演进, SVG 动效 | [`用注意力重塑深度维度的信息聚合 · 交互讲解.md`](./prompts/用注意力重塑深度维度的信息聚合%20·%20交互讲解.md) | [`Kimi_Agent_✅论文.zip`](./packages/Kimi_Agent_✅论文.zip) | [🌐 在线预览](https://7inif7p6jcz2y.kimi.page) |
-| **09** | **船运不是一个周期** | 宏观数据故事化 | D3.js v7, Scrollama v3, 像素船 SVG | [`船运不是一个周期.md`](./prompts/船运不是一个周期.md) | [`Kimi_Agent_✅船运周期.zip`](./packages/Kimi_Agent_✅船运周期.zip) | [🌐 在线预览](https://nuesj4c5tehcg.kimi.page) |
+| **01** | **黑洞：GARGANTUA** | 科学可视化 / 天体物理 | WebGL, GLSL, Three.js, Raytracer | • [`主规格`](./prompts/GARGANTUA.md)<br>• [`简单版`](./prompts/GARGANTUA-简单提示词.md)<br>• [`第二轮`](./prompts/GARGANTUA-第二轮会话.md) | [`Kimi_Agent_✅GARGANTUA.zip`](./packages/Kimi_Agent_✅GARGANTUA.zip) | [🌐 体验 1](https://c3gyemkuxznvi.ok.kimi.link?id=2077777306876747776&share_id=19f6af0a-ddb2-8cce-8000-0000238a274d) / [体验 2](https://excdvtcdshcu4.ok.kimi.link/) |
+| **02** | **3D 复古打字机** | 拟物拟态 / 3D 交互 | Three.js, 物理按键音效, 纸张卷动 | • [`主规格`](./prompts/3D复古打字机.md)<br>• [`简单版`](./prompts/3D复古打字机-简单提示词.md)<br>• [`第二轮`](./prompts/3D复古打字机-第二轮会话.md)<br>• [`第三轮`](./prompts/3D复古打字机-第三轮会话.md) | [`Kimi_Agent_3D复古打印机.zip`](./packages/Kimi_Agent_3D复古打印机.zip) | [🌐 体验 1](https://ixb5rkvzh7m44.ok.kimi.link?id=2082736037805252608&share_id=19fb1fad-6ce2-8a42-8000-0000a90284a2) / [体验 2](https://phfiw57ydjife.kimi.page/) |
+| **03** | **Bloomberg 风格股市看板** | 金融科技 / 交易终端 | Canvas, ASCII Terminal, 模块化拖拽 | • [`主规格`](./prompts/Bloomberg风格全球股市看板.md)<br>• [`简单版`](./prompts/Bloomberg风格全球股市看板-简单提示词.md)<br>• [`第二轮`](./prompts/Bloomberg风格全球股市看板-第二轮会话.md)<br>• [`第三轮`](./prompts/Bloomberg风格全球股市看板-第三轮会话.md)<br>• [`第四轮`](./prompts/Bloomberg风格全球股市看板-第四轮会话.md) | [`Kimi_Agent_全球股市终端构建.zip`](./packages/Kimi_Agent_全球股市终端构建.zip) | [🌐 体验 1](https://6qz4trpct4e34.ok.kimi.link?id=2082747077238546432&share_id=19fb223c-87f2-83c7-8000-0000a60c211b) / [体验 2](https://s4ibp54hd7bwq.kimi.page/) |
+| **04** | **海的尽头 (Open Sea)** | 次世代 Web 图形学 | WebGPU, Three.js TSL 节点着色器 | • [`主规格`](./prompts/海的尽头.md)<br>• [`简单版`](./prompts/海的尽头-简单提示词.md) | [`Kimi_Agent_✅Open Sea.zip`](./packages/Kimi_Agent_✅Open%20Sea.zip) | [🌐 体验 1](https://avj2vp5rk3fqe.ok.kimi.link?id=2077778172904054784&share_id=19f6af1a-b402-8a62-8000-0000ed366eab) / [体验 2](https://qdtipu6rd2myk.ok.kimi.link) |
+| **05** | **赛博朋克大都会** | 3D Web 动作游戏 | Three.js, 骨骼动画, 蛛丝飞跃物理 | • [`主规格`](./prompts/赛博朋克大都会.md)<br>• [`简单版`](./prompts/赛博朋克大都会-简单提示词.md)<br>• [`第二轮`](./prompts/赛博朋克大都会-第二轮会话.md) | [`cyberpunk-megapolis-v7.zip`](./packages/cyberpunk-megapolis-v7.zip) | [🌐 体验 1](https://dnjwep22axoiq.ok.kimi.link?id=2077778637939122176&share_id=19f6aedd-c7a2-862d-8000-0000ba25e56c) / [体验 2](https://zrlxxdaz56kym.ok.kimi.link) |
+| **06** | **喷气发动机 3D 互动教具** | 航空航天 / 机械课本 | Three.js, 布雷顿循环, 粒子流体模拟 | • [`主规格`](./prompts/喷气发动机3D互动教具.md)<br>• [`简单版`](./prompts/喷气发动机3D互动教具-简单提示词.md)<br>• [`第二轮`](./prompts/喷气发动机3D互动教具-第二轮会话.md)<br>• [`第三轮`](./prompts/喷气发动机3D互动教具-第三轮会话.md)<br>• [`第四轮`](./prompts/喷气发动机3D互动教具-第四轮会话.md) | [`Kimi_Agent_3D喷气发动机教学.zip`](./packages/Kimi_Agent_3D喷气发动机教学.zip) | [🌐 体验](https://wa6krm6bznv44.kimi.page) |
+| **07** | **推理芯片的四十二年** | 深度研究长卷研报 | ASIC V8 复刻, 滚动叙事, 实时仪表盘 | • [`主规格`](./prompts/推理芯片的四十二年%20·%201985–2026%20周期重建与行业深研.md)<br>• [`简单版`](./prompts/推理芯片的四十二年%20·%201985–2026%20周期重建与行业深研-简单提示词.md)<br>• [`第二轮`](./prompts/推理芯片的四十二年%20·%201985–2026%20周期重建与行业深研-第二轮会话.md)<br>• [`第三轮`](./prompts/推理芯片的四十二年%20·%201985–2026%20周期重建与行业深研-第三轮会话.md)<br>• [`第四轮`](./prompts/推理芯片的四十二年%20·%201985–2026%20周期重建与行业深研-第四轮会话.md) | [`Kimi_Agent_✅推理芯片.zip`](./packages/Kimi_Agent_✅推理芯片.zip) | [🌐 体验](https://765dvagfhthwu.kimi.page) |
+| **08** | **Attention Residuals 互动论文** | AI 论文互动科普 | 交互式架构讲解, 状态演进, SVG 动效 | • [`主规格`](./prompts/用注意力重塑深度维度的信息聚合%20·%20交互讲解.md)<br>• [`第二轮`](./prompts/用注意力重塑深度维度的信息聚合%20·%20交互讲解-第二轮会话.md) | [`Kimi_Agent_✅论文.zip`](./packages/Kimi_Agent_✅论文.zip) | [🌐 体验](https://7inif7p6jcz2y.kimi.page) |
+| **09** | **船运不是一个周期** | 宏观数据故事化 | D3.js v7, Scrollama v3, 像素船 SVG | • [`主规格`](./prompts/船运不是一个周期.md) | [`Kimi_Agent_✅船运周期.zip`](./packages/Kimi_Agent_✅船运周期.zip) | [🌐 体验](https://nuesj4c5tehcg.kimi.page) |
 
 ---
 
-## 🔬 案例深度拆解
+## 💡 官网灵感库精选专区 (Inspiration Hub · 129 个案例)
 
-<details>
-<summary><b>1. 黑洞：GARGANTUA（点击展开详情）</b></summary>
+> 完整清单位于专用索引文档：[`KIMI-k3-灵感库.md`](./KIMI-k3-灵感库.md)  
+> 对应 129 份独立 Prompt 文档均已归档于：[`灵感库prompt/`](./灵感库prompt/)
 
-- **项目定位**：实时 Schwarzschild 黑洞光线追踪模拟器，致敬《星际穿越》。
-- **图形学实现**：纯 GLSL 片段着色器实时计算引力透镜偏折方程与事件视界，结合多重采样吸积盘粒子渲染，配备电影级 HUD、音效系统与参数控制面板。
-- **Prompt 亮点**：严禁采用粗糙的“黑色 3D 球体+扁平光环贴图”糊弄方案，以物理数学规范约束光线步进算法。
-</details>
+官方灵感库展示了 Kimi 在创意编程、互动小游戏及轻量级 Web 建站层面的敏捷生成能力，共分为三大核心专区：
 
-<details>
-<summary><b>2. 3D 复古打字机（点击展开详情）</b></summary>
+| 专区分类 | 官方专区链接 | 案例数 | 特色代表案例 |
+| :--- | :--- | :---: | :--- |
+| 🎮 **游戏专区 (Game)** | [Inspiration / Game](https://www.kimi.com/inspiration?tab=game) | **42** | 林中小屋 (开放世界)、第一人称3D台球、午夜货运、Kimi环游世界、圣安娜祭坛浮雕、树蛙模拟器、沙漠FPS射击 |
+| 🌐 **3D 网页专区 (3D Web)** | [Inspiration / 3D Web](https://www.kimi.com/inspiration?tab=3d_web) | **44** | 太阳系漫游、透视火箭标注图、陀飞轮手表机芯、人体解剖学堂、日落收藏家、古灵阁灯光控制台、空间站生活舱 |
+| 🛠️ **应用建站专区 (Other)** | [Inspiration / Other](https://www.kimi.com/inspiration?tab=other) | **43** | 行情监控看板、多 Agent 可视化、与人·HR招聘系统、多轨时间轴、氛围日记本、机械臂工作流程看板、房屋火灾模拟 |
 
-- **项目定位**：高保真拟物化机械打字机 3D 互动体验。
-- **核心交互**：完整按键行程回弹动画、联动字锤敲击、移动滚筒走纸、换行蜂鸣与机械清脆音效。
-- **Prompt 亮点**：精细定义按键敲击状态机（Key Down -> Strike Lever -> Ribbon Advance -> Paper Feed）。
-</details>
-
-<details>
-<summary><b>3. Bloomberg 风格全球股市看板（点击展开详情）</b></summary>
-
-- **项目定位**：高信息密度全球多资产交易监控工作台（彭博终端 × ASCII 艺术风）。
-- **核心功能**：支持全球股指热力图、AAPL 历史走势、四大贵金属实时联动、五大多时区开盘时钟，具备类 Canvas 画布的模块拖拽重排与本地持久化。
-- **Prompt 亮点**：强调高密度金融终端排版，严禁做成常见 SaaS 风格的大圆角空旷后台。
-</details>
-
-<details>
-<summary><b>4. 海的尽头 · Open Sea（点击展开详情）</b></summary>
-
-- **项目定位**：基于次世代 WebGPU 规范的程序化海洋与天际模拟。
-- **图形学实现**：采用 Three.js Shading Language (TSL) 节点着色器，实时 Gerstner 波浪物理运算、次表面散射与水下折射。
-- **Prompt 亮点**：规定双文件纯原生架构（`index.html` + `main.js`），严密实现 WebGPU 检测、平滑降级与 FPS 监控。
-</details>
-
-<details>
-<summary><b>5. 赛博朋克大都会 · Web-Swing Edition（点击展开详情）</b></summary>
-
-- **项目定位**：浏览器端全 3D 第三人称赛博都市蛛丝穿梭高动感游戏。
-- **技术特色**：包含数百座建筑的城市体块生成、GLTF 角色与多套动作融合、蛛丝摆荡物理系统、第三人称跟随电影镜头。
-- **Prompt 亮点**：精确规定电影级黑色 Loader 动画时序与资源真实加载进度计算，防止假加载。
-</details>
-
-<details>
-<summary><b>6. 喷气发动机 3D 互动教具（点击展开详情）</b></summary>
-
-- **项目定位**：机械工程/航空航天专业低年级立体互动课本。
-- **因果链设计**：将“进气 → 压气机增压 → 燃烧室膨胀 → 涡轮做功 → 喷管加速推力”完整物理与热力学布雷顿循环可视化。
-- **Prompt 亮点**：每一个机械零部件均与状态参数双向绑定，支持剖切、定格与气流色彩温标展示。
-</details>
-
-<details>
-<summary><b>7. 推理芯片的四十二年（点击展开详情）</b></summary>
-
-- **项目定位**：1985-2026 全球 AI 与计算芯片周期深度图文研报。
-- **交互设计**：复刻 ASIC V8 经典长卷，滚动触发故事线（Scrollytelling），右侧悬浮固定 Dashboard 同步联动展现周期指数与算力能效比。
-</details>
-
-<details>
-<summary><b>8. Attention Residuals 交互论文精读（点击展开详情）</b></summary>
-
-- **项目定位**：前沿 AI 架构论文科普——用注意力重塑深度维度的信息聚合。
-- **交互设计**：将复杂的残差连接稀释、Full Attention Residuals 与 Block Attention Residuals 用可交互的矩阵流行动画生动拆解。
-</details>
-
-<details>
-<summary><b>9. 船运不是一个周期（点击展开详情）</b></summary>
-
-- **项目定位**：宏观经济与集装箱海运波动的交互式数据新闻。
-- **技术特色**：原生 D3.js + Scrollama，采用字符矩阵生成矢量像素船模型，清晰呈现多周期叠加规律。
-</details>
+> 📁 **如何使用灵感库 Prompt**：进入 [`灵感库prompt/`](./灵感库prompt/) 目录，每份文件均包含「作品标题」、「在线体验 URL」与「完整的 Prompt 提示词」，可直接复制至 Kimi、Claude 或其他 AI Coding 工具中快速复刻生成！
 
 ---
 
-## 🧠 提示词工程（Prompt Engineering）方法论启示
+## 🧠 多轮提示词工程（Multi-Turn Prompting）方法论启示
 
-研读本仓库中收录的 9 篇 Prompt，可以总结出让 AI Agent 一次性高质量交付复杂系统的**“五步工业级 Prompt 范式”**：
+本次拆分出的多轮会话实录直观揭示了构建高复杂度软件时，人机协作的生命周期模型：
 
 ```mermaid
-flowchart LR
-    A["1. 角色与边界<br/>(身份声明/零妥协约束)"] --> B["2. 架构与依赖<br/>(原生技术栈/固定目录)"]
-    B --> C["3. 算法与物理<br/>(精确数学/着色器/数据契约)"]
-    C --> D["4. 视觉与排版<br/>(配色/字号/微动效/DOM)"]
-    D --> E["5. 鲁棒与降级<br/>(无障碍/错误处理/移动端)"]
+flowchart TD
+    S["Phase 0: 简单起手式<br/>(简单提示词 · 确认可行性/基础原型)"] --> A["Phase 1: 工业级系统 Prompt<br/>(架构契约/数学模型/无妥协边界约束)"]
+    A --> B["Phase 2: 二轮会话<br/>(渲染管道调试/事件状态机完善/音效绑定)"]
+    B --> C["Phase 3: 三轮会话<br/>(边界极端场景修复/全屏响应式/性能降级)"]
+    C --> D["Phase 4: 四轮会话<br/>(微交互打磨/数据校验/生产级交付验收)"]
 ```
 
-1. **绝对边界与前置声明**：明确规定“严禁向用户索要源码、严禁使用静态伪图敷衍、严禁输出占位 TODO 代码”。
-2. **纯粹的技术栈契约**：明确指定单文件或原生 ES Modules 方案，约定固定的加载顺序与本地依赖路径，杜绝构建链断裂风险。
-3. **算法与物理底层公式**：将天体物理、热力学循环、Gerstner 波、金融指标等公式直接作为 Prompt 的事实来源注入。
-4. **精细到像素的视觉规范**：从背景色十六进制码、字体排印层级到微交互动画帧均有详尽规格，极大减少 AI 的随意自由发散。
-5. **健壮的状态机与优雅降级**：预置 WebGPU/WebGL 缺失环境检测与备用渲染管线，确保在各端均有良好可访问性。
+1. **简单提示词（Phase 0）**：验证模型对核心创意的语义理解，快速生成骨架与最小可行方案（MVP）；
+2. **系统级工程 Prompt（Phase 1）**：建立严苛的架构规则、确定目录与加载顺序、注入天体物理或动力学公式；
+3. **多轮精准微调（Phase 2 ~ 4）**：
+   - 修复 WebGL 着色器在特定视口下的黑屏或撕裂；
+   - 调整移动物理衰减阻尼与相机防穿模检测；
+   - 完善键盘/鼠标事件冲突与移动端触控兼容。
 
 ---
 
