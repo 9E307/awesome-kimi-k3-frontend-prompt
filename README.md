@@ -2,7 +2,7 @@
 ### 🚀 KIMI 官方前沿前端案例、工业级提示词工程、多轮会话实录与成品源码全景库
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Deduplicated_Showcases-183%20Unique%20Sites-blue?style=flat-square&logo=safari" alt="Showcases" />
+  <img src="https://img.shields.io/badge/Official_Showcases-183%20Sites-blue?style=flat-square&logo=safari" alt="Showcases" />
   <img src="https://img.shields.io/badge/Inspiration_Prompts-129%20Files-success?style=flat-square&logo=googlechrome" alt="Inspirations" />
   <img src="https://img.shields.io/badge/Core_Projects-9%20Full%20Packages-purple?style=flat-square&logo=github" alt="Projects" />
   <img src="https://img.shields.io/badge/Prompt_Specs-Multi--turn%20Dialogues-orange?style=flat-square" alt="Prompts" />
@@ -18,7 +18,7 @@
 1. **💎 9 大旗舰级工程工件（Core Packages）**：包含 9 套完整可离线运行的前端成品项目源码包（ZIP）、着色器源码、静态依赖与测试报告；
 2. **🧠 工业级提示词工程与多轮会话实录（Multi-Turn Prompts）**：涵盖核心案例的**【简单提示词（起手式）】$\to$【主系统规格 Prompt（万字规范）】$\to$【第 2~4 轮精准微调与 Debug 会话】**，完整还原顶尖复杂应用的人机协作推演过程；
 3. **💡 129 份官方灵感库独立 Prompt 资产（Inspiration Prompts）**：涵盖游戏、3D 网页、应用建站三大类，配套 **129 份独立归档的本地 Prompt 文档**（位于 [`灵感库prompt/`](./灵感库prompt/)）；
-4. **🌐 183 个全量去重在线展示站点汇总（Deduplicated Showcases）**：将官网展示案例与灵感库跨库剔除 36 个重复项后，整合成 **183 个独一无二的在线演示站点**，集中收录于 [`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)。
+4. **🌐 183 个官方展示案例全景汇总（Official Showcases）**：涵盖游戏娱乐、3D 与科学可视化、数据看板、实用工具、创意落地页及 Agent 集群等全品类，共收录 **183 个在线演示站点**，集中收录于 [`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)。
 
 ---
 
@@ -36,7 +36,7 @@
 ```
 .
 ├── 📜 README.md                                                 # 项目总览与使用说明 (本文档)
-├── 📑 KIMI官网展示案例汇总.md                                       # 官方全量展示案例汇总 (全量去重收录 183 个独一演示站点)
+├── 📑 KIMI官网展示案例汇总.md                                       # 官方展示案例全量汇总 (收录 183 个在线演示站点)
 │
 ├── 📁 prompts/                                                  # 旗舰工程多轮会话与提示词规格库 (Markdown)
 │   ├── 3D复古打字机.md (+ 简单提示词 / 第二轮 / 第三轮会话)
@@ -124,9 +124,9 @@ flowchart TD
 
 ---
 
-## 🌐 官方展示案例分类概览 (去重后 183 个独一站点)
+## 🌐 官方展示案例分类概览 (共 183 个站点)
 
-> 完整的不重复在线体验链接及关联本地 Prompt / 源码请直接查阅：[`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)。
+> 完整的在线体验链接及关联本地 Prompt / 源码请直接查阅：[`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)。
 
 - 🎮 **一、游戏娱乐专区 (45 个)**：林中小屋、午夜货运、后室空间探索、Kimi环游世界、三渲二汉堡店、物理叠叠乐、第一人称3D台球、赛博朋克空战、月光钢琴...
 - 🌐 **二、3D 与科学可视化 (62 个)**：黑洞 GARGANTUA、太阳系漫游、透视火箭标注图、陀飞轮手表机芯、人体解剖学堂、日落收藏家、空间站生活舱、古灵阁灯光控制台...
