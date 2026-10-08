@@ -2,8 +2,8 @@
 ### 🚀 KIMI 官方前沿前端案例、工业级提示词工程、多轮会话实录与成品源码全景库
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Official_Showcases-91%2B%20Sites-blue?style=flat-square&logo=safari" alt="Showcases" />
-  <img src="https://img.shields.io/badge/Inspiration_Library-129%2B%20Demos-success?style=flat-square&logo=googlechrome" alt="Inspirations" />
+  <img src="https://img.shields.io/badge/Deduplicated_Showcases-183%20Unique%20Sites-blue?style=flat-square&logo=safari" alt="Showcases" />
+  <img src="https://img.shields.io/badge/Inspiration_Prompts-129%20Files-success?style=flat-square&logo=googlechrome" alt="Inspirations" />
   <img src="https://img.shields.io/badge/Core_Projects-9%20Full%20Packages-purple?style=flat-square&logo=github" alt="Projects" />
   <img src="https://img.shields.io/badge/Prompt_Specs-Multi--turn%20Dialogues-orange?style=flat-square" alt="Prompts" />
   <img src="https://img.shields.io/badge/Powered%20By-Moonshot%20AI%20Kimi%20K3-red?style=flat-square" alt="Kimi" />
@@ -13,12 +13,12 @@
 
 ## 📖 项目简介
 
-本项目深度收录并系统整理了 **Moonshot AI（月之暗面）Kimi 官网**、**Kimi Agent** 以及 **Kimi K3** 在前端应用生成领域的全部核心工程资产与提示词沉淀，构建了一个开箱即用、全景视角的 Web 前端生成范式库：
+本项目深度收录并系统整理了 **Moonshot AI（月之暗面）Kimi 官网**、**Kimi Agent** 以及 **Kimi K3** 在前端应用生成领域的全部核心工程资产与提示词沉淀，构建了一个开箱即用的 Web 前端生成范式库：
 
 1. **💎 9 大旗舰级工程工件（Core Packages）**：包含 9 套完整可离线运行的前端成品项目源码包（ZIP）、着色器源码、静态依赖与测试报告；
 2. **🧠 工业级提示词工程与多轮会话实录（Multi-Turn Prompts）**：涵盖核心案例的**【简单提示词（起手式）】$\to$【主系统规格 Prompt（万字规范）】$\to$【第 2~4 轮精准微调与 Debug 会话】**，完整还原顶尖复杂应用的人机协作推演过程；
-3. **💡 129 个官网灵感库精选资产（Inspiration Hub）**：包含游戏（42个）、3D 网页（44个）、应用建站（43个）三大专区，并配套 **129 份独立归档的本地 Prompt 文档**（位于 [`灵感库prompt/`](./灵感库prompt/)）；
-4. **🌐 91 个官网前沿综合案例全景导航（Official Showcases）**：涵盖 65 款精选分类网站、5 大 Agent 集群智能体及 21 款探索灵感作品。
+3. **💡 129 份官方灵感库独立 Prompt 资产（Inspiration Prompts）**：涵盖游戏、3D 网页、应用建站三大类，配套 **129 份独立归档的本地 Prompt 文档**（位于 [`灵感库prompt/`](./灵感库prompt/)）；
+4. **🌐 183 个全量去重在线展示站点汇总（Deduplicated Showcases）**：将官网展示案例与灵感库跨库剔除 36 个重复项后，整合成 **183 个独一无二的在线演示站点**，集中收录于 [`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)。
 
 ---
 
@@ -36,7 +36,7 @@
 ```
 .
 ├── 📜 README.md                                                 # 项目总览与使用说明 (本文档)
-├── 📑 KIMI官网展示案例汇总.md                                       # 官方 Web 案例与灵感库全景大典 (涵盖灵感库129+精选网站65+Agent集群+研报)
+├── 📑 KIMI官网展示案例汇总.md                                       # 官方全量展示案例汇总 (全量去重收录 183 个独一演示站点)
 │
 ├── 📁 prompts/                                                  # 旗舰工程多轮会话与提示词规格库 (Markdown)
 │   ├── 3D复古打字机.md (+ 简单提示词 / 第二轮 / 第三轮会话)
@@ -88,7 +88,7 @@
 
 ## 💡 官网灵感库精选专区 (Inspiration Hub · 129 个案例)
 
-> 现已完整合并融入全景大典：[`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md#一-官方灵感库精选专区共-129-个--配套-129-份独立-prompt)  
+> 现已完整合并融入：[`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)  
 > 对应 129 份独立 Prompt 文档均已归档于：[`灵感库prompt/`](./灵感库prompt/)
 
 官方灵感库展示了 Kimi 在创意编程、互动小游戏及轻量级 Web 建站层面的敏捷生成能力，共分为三大核心专区：
@@ -124,19 +124,16 @@ flowchart TD
 
 ---
 
-## 🌐 官方全量案例与灵感大典导航
+## 🌐 官方展示案例分类概览 (去重后 183 个独一站点)
 
-> 全量分类导航、灵感库三大专区与详细链接请查阅全景大典文档：[`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)。
+> 完整的不重复在线体验链接及关联本地 Prompt / 源码请直接查阅：[`KIMI官网展示案例汇总.md`](./KIMI官网展示案例汇总.md)。
 
-- **精选网站 (65 个)**：
-  - 🎮 **游戏娱乐 (9 个)**：月光钢琴、海岛世界、运河极速、传送战场、月面竞速、赛博战机、霜林博弈、沙暴协议、月面疾跑
-  - 📊 **数据与科学可视化 (14 个)**：三维设计、爆炸视图、交互研报、文字绕流、彩色研报、挑战路书、知识星图、概念图解、代码之城、仓库观测、讲解工坊、时间长河、智能编队、场实验室
-  - 🖥️ **专业与业务看板 (9 个)**：班级管理、盘面看板、指挥大屏、管理后台、数据手稿、预算台账、运维终端、库存蓝图、客户台账
-  - 🛠️ **效能与创作工具 (9 个)**：雨窗手记、抽奖转盘、论文精读、投票看板、每日待办、思维导图、在线题册、图片暗房、计算工台
-  - 📄 **创意与设计落地页 (20 个)**：竖排长卷、变幻视界、客户洞察、程序场景、一日时刻、流体工场、旅行影集、编年档案、时装店面、节气笺纸、物件目录、温泉汤宿、全息画廊、落日旅途、艺术藏馆、幻夜疾驰、光影空间、字符暗月、赛博雨幕、流动印象
-  - 🌐 **全栈与独立应用 (4 个)**：个人博客、专注空间、海景预定、月光笔记
-- **Agent 集群展示案例 (5 个)**：黑洞 GARGANTUA、3D 复古打字机、Bloomberg 风格全球股市看板、海的尽头、赛博朋克大都会
-- **探索灵感已发布作品 (21 个)**：涵盖灵感、智能体集群、深度研究、精选网站、交互文档与表格 6 大产品线
+- 🎮 **一、游戏娱乐专区 (45 个)**：林中小屋、午夜货运、后室空间探索、Kimi环游世界、三渲二汉堡店、物理叠叠乐、第一人称3D台球、赛博朋克空战、月光钢琴...
+- 🌐 **二、3D 与科学可视化 (62 个)**：黑洞 GARGANTUA、太阳系漫游、透视火箭标注图、陀飞轮手表机芯、人体解剖学堂、日落收藏家、空间站生活舱、古灵阁灯光控制台...
+- 🖥️ **三、数据与业务看板 (13 个)**：Bloomberg 风格全球股市看板、机械臂监控看板、行情监控看板、通用管理后台、指挥大屏、预算台账...
+- 🛠️ **四、实用工具与全栈应用 (22 个)**：与人·HR招聘系统、多轨时间轴、氛围日记本、雨窗手记、房屋火灾模拟、抽奖转盘、思维导图、在线题册...
+- 📄 **五、创意落地页与设计长卷 (24 个)**：竖排长卷、变幻视界、客户洞察、程序场景、一日时刻、流体工场、旅行影集、时装店面、节气笺纸...
+- 🔬 **六、智能体集群与深度研报 (17 个)**：海的尽头 (WebGPU)、赛博朋克大都会、推理芯片的四十二年、喷气发动机 3D 互动教具、Attention Residuals 论文交互讲解、船运不是一个周期...
 
 ---
 
