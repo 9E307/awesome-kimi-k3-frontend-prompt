@@ -1,4 +1,4 @@
-# KIMI Web Artifacts & Prompt Engineering Showcase
+# KIMI K3 Web Artifacts & Prompt Engineering Showcase
 ### 🚀 KIMI 官方前沿前端案例、工业级提示词工程、多轮会话实录与成品源码全景库
 
 <p align="center">
